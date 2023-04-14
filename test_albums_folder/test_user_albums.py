@@ -1,4 +1,4 @@
-#SAVE/ REMOVE USER ALBUMS NOT YET AVAILABLE
+#SAVE/ REMOVE USER ALBUMS NOT YET AVAILABLE in Spotify API/Dev
 
 # from albums.save_albums_for_user import put_user_albums
 # from albums.remove_user_saved_albums import remove_user_albums

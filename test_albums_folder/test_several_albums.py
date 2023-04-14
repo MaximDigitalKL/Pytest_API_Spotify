@@ -3,7 +3,7 @@ from albums.request_several_albums import (
     get_several_albums_with_market_filter,
     get_several_albums_with_invalid_market
 )
-from sample_data import SpotifyAlbum
+from album_sample_data import SpotifyAlbum
 
 
 def test_get_several_albums_validation():

@@ -1,6 +1,6 @@
 import requests
 from authorization.request_authorization import make_auth_header
-from sample_data import SpotifyAlbum
+from album_sample_data import SpotifyAlbum
 
 
 def remove_user_albums():

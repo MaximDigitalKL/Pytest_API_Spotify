@@ -4,7 +4,7 @@ from albums.request_album import (
     get_single_album_with_market,
     get_single_album_with_invalid_market
 )
-from sample_data import SpotifyAlbum, COUNTRIES
+from album_sample_data import SpotifyAlbum, COUNTRIES
 
 
 def test_single_album_validation():

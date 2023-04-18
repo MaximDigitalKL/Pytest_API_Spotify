@@ -3,7 +3,7 @@ from albums.request_several_albums import (
     get_several_albums_with_market_filter,
     get_several_albums_with_invalid_market
 )
-from album_sample_data import SpotifyAlbum
+from sample_data_folder.album_sample_data import SpotifyAlbum
 
 
 def test_get_several_albums_validation():
@@ -15,7 +15,7 @@ def test_get_several_albums_validation():
     response_data = response.json()
     expected_names = SpotifyAlbum.several_album_names()
     assert len(response_data['albums']) == 3
-    actual_names = tuple(x['name'] for x in response_data['albums'])  #list/generator comprehension
+    actual_names = tuple(x['name'] for x in response_data['albums'])
     assert actual_names == expected_names
     
 def test_get_several_albums_with_market_invalid_market():

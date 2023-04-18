@@ -2,7 +2,7 @@ from albums.request_album_tracks import (
     get_album_tracks,
     get_album_tracks_invalid
 )
-from album_sample_data import SpotifyTrack
+from sample_data_folder.album_sample_data import SpotifyTrack
 
 
 def test_get_album_tracks_validation():

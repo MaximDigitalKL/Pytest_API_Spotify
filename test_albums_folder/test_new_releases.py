@@ -2,7 +2,7 @@ from albums.request_new_releases import (
     get_new_releases_with_valid_country,
     get_new_releases_with_invalid_country
 )
-from album_sample_data import COUNTRIES
+from sample_data_folder.album_sample_data import COUNTRIES
 
 
 def test_new_releases_with_valid_country_validation():

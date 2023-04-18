@@ -1,6 +1,6 @@
 import requests
 from authorization.request_authorization import make_auth_header
-from album_sample_data import SpotifyAlbum, COUNTRIES
+from sample_data_folder.album_sample_data import SpotifyAlbum, COUNTRIES
 
 
 def get_several_albums():

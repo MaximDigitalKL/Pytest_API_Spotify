@@ -1,6 +1,6 @@
 import requests
 from albums.request_album_tracks import get_album_tracks
-from album_sample_data import api_sources_lib
+from sample_data_folder.album_sample_data import api_sources_lib
 from albums.request_several_albums import get_several_albums
 
 

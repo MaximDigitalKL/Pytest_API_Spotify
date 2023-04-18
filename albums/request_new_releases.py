@@ -1,6 +1,6 @@
 import requests
 from authorization.request_authorization import make_auth_header
-from album_sample_data import COUNTRIES
+from sample_data_folder.album_sample_data import COUNTRIES
 
 
 def get_new_releases_with_valid_country():

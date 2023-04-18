@@ -3,7 +3,7 @@ from artists.request_artist import (
     get_single_artist_invalid
 )
 
-from artist_sample_data import SpotifyArtist
+from sample_data_folder.artist_sample_data import SpotifyArtist
 
 def test_single_artist_validation():
     response = get_single_artist()

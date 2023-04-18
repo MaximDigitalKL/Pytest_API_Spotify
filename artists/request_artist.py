@@ -1,5 +1,5 @@
 import requests
-from artist_sample_data import SpotifyArtist
+from sample_data_folder.artist_sample_data import SpotifyArtist
 from authorization.request_authorization import make_auth_header
 
 

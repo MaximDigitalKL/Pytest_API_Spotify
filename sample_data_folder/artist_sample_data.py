@@ -22,9 +22,6 @@ class SpotifyArtist:
         }
         return cls(**details)
 
-    @classmethod
-    def missing_artist_id(cls):
-        return "711MCceyCBcFnzjGY4Q7Un4"
 
     @classmethod
     def several_artists_ids(cls):
